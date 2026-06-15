@@ -30,10 +30,6 @@ A browser-based multiplayer party-game platform for 2–10 players. Host creates
 - Hot Seat
 - Truth or Dare
 
-### Adult 18+
-- 18+ Party Pack, locked behind host age confirmation
-- Uses non-explicit relationship, party, and drinking prompts only
-
 ### Flagship
 - Legends of Campus: hidden campus roles + quests + voting + items + traitor-style tension
 
