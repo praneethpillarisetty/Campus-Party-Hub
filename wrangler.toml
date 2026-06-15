@@ -1,0 +1,17 @@
+name = "campus-party-hub"
+main = "src/worker/index.ts"
+compatibility_date = "2026-06-01"
+assets = { directory = "./dist" }
+
+[[durable_objects.bindings]]
+name = "ROOMS"
+class_name = "RoomObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RoomObject"]
+
+[[kv_namespaces]]
+binding = "HUB_KV"
+id = "REPLACE_WITH_PROD_KV_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
